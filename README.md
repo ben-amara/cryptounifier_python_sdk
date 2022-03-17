@@ -4,7 +4,7 @@ A simple PYTHON SDK for interacting with [Crypto Unifier](https://cryptounifier.
 
 ## Installation
 
-You can install the package via pipy:
+You can install the package via pypi:
 
 ```bash
 pip install cryptounifier_python_sdk
