@@ -2,7 +2,7 @@
 from  cryptounifier_python_sdk import MerchantAPI, WalletAPI
 
 # WalletAPI
-client = WalletAPI('crB5XNkCdvUjjnWp', 'v3/3AEQWLOzxUhvimu8X8kS5L5DCkQ6c4iVOD62yK0g=', 'btc')
+client = WalletAPI('', '', 'btc')
 
 #balance = client.getBalance()
 balance = client.validateAddresses(["ubc"])

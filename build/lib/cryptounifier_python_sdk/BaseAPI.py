@@ -24,8 +24,10 @@ class BaseAPI(object):
     def __init__(self, suffix, headers, timeout=None, connection_timeout=None, max_retries=None, 
                      proxies=None, verify=False, **kwargs): 
         self.suffix = suffix
+        self._headers = headers or {} 
+        
         self._url = self.setApiUrl(self.DEFAULT_URL)   
-        self._headers = headers or {}      
+             
 
     def setApiUrl(self, defaultUrl):    
         if defaultUrl[-1] != '/':
