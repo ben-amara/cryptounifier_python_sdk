@@ -1,1 +1,4 @@
 dist/
+
+cryptounifier_python_sdk.egg-info/
+build/*
